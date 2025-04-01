@@ -1,5 +1,119 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  color: white;
+  background-color: #19191c;
+}
+
+/* Header Styles */
+.header {
+  background-color: #373741;
+  border-radius: 30px;
+  max-width: 1320px;
+  max-height: 384px;
+  padding: 30px;
+  padding-bottom: 100px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 20px -4px #000;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  font-size: 1.1rem;
+}
+
+.navbar-links__link:nth-child(4) > i {
+  width: 10px;
+}
+
+.navbar-btn {
+  background-color: #ff5900;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  height: 40px;
+  font-weight: 600;
+}
+
+.header {
+  max-width: 1912px;
+  background-image: url(https://images.unsplash.com/photo-1621947081720-86970823b77a?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+.header-title {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.header-title h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Main Styles */
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* Plans Styles */
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px auto;
+  padding: 30px;
+
+  .plans-line {
+    color: #ff5900;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .plans-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+
+.plans-cards {
+  display: flex;
+  gap: 20px;
+
+  .plans-cards__card {
+    background-color: #27272a;
+    color: #e4e4e7;
+    padding: 50px;
+    border-radius: 20px;
+  }
 }
