@@ -20,7 +20,8 @@ body {
 .header {
   background-color: #373741;
   border-radius: 30px;
-  max-width: 1320px;
+  max-width: 100%;
+  width: 1320px;
   max-height: 384px;
   padding: 30px;
   padding-bottom: 100px;
@@ -129,6 +130,7 @@ main {
   .dollar-price,
   .plans-cards__card-month {
     font-weight: 600;
+    font-size: 2rem;
     color: #a1a1aa;
   }
 
