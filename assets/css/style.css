@@ -47,6 +47,11 @@ body {
   width: 10px;
 }
 
+.navbar-links__link a:hover {
+  color: #ff5900;
+  background-color: transparent;
+}
+
 .navbar-btn {
   background-color: #ff5900;
   color: white;
@@ -55,6 +60,11 @@ body {
   font-size: 1.1rem;
   height: 40px;
   font-weight: 600;
+}
+
+.navbar-btn:hover {
+  background-color: #fff;
+  color: #ff5900;
 }
 
 .header {
