@@ -25,7 +25,7 @@ body {
   padding: 30px;
   padding-bottom: 100px;
   margin: 20px auto;
-  box-shadow: 0px 0px 20px -4px #000;
+  box-shadow: 0px 0px 20px -4px #00000049;
 }
 
 .navbar {
@@ -58,7 +58,8 @@ body {
 
 .header {
   max-width: 1912px;
-  background-image: url(https://images.unsplash.com/photo-1621947081720-86970823b77a?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-color: transparent;
+  /* background-image: url(https://images.unsplash.com/photo-1621947081720-86970823b77a?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); */
 }
 
 .header-title {
@@ -115,5 +116,63 @@ main {
     color: #e4e4e7;
     padding: 50px;
     border-radius: 20px;
+    position: relative;
+  }
+
+  .plans-cards__card-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+
+  .dollar-price,
+  .plans-cards__card-month {
+    font-weight: 600;
+    color: #a1a1aa;
+  }
+
+  .plans-cards__card-price {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+  }
+
+  .plans-cards__card-month {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .plans-cards__card-desc {
+    margin: 30px 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #a1a1aa;
+    margin-top: 20px;
+  }
+
+  hr {
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+  }
+
+  .plans-cards__card-features {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .most-popular {
+    position: absolute;
+    background-color: #10b981;
+    padding: 5px 10px;
+    border-radius: 10px;
+    top: -15px;
+    right: 40px;
+    font-size: 0.75rem;
+    color: #000;
+    font-weight: 800;
+    box-shadow: 0px 0px 20px -4px #000;
   }
 }
