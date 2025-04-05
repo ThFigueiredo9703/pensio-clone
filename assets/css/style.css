@@ -94,7 +94,7 @@ main {
   padding: 30px;
 
   .plans-line {
-    color: #ff5900;
+    color: #ffae83;
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 1rem;
@@ -261,5 +261,45 @@ main {
 
   button.navbar-btn:hover {
     box-shadow: 0px 0px 20px -12px #ffae83;
+  }
+}
+
+.compare {
+  padding: 100px 0;
+
+  .compare-line {
+    color: #ffae83;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .compare-title {
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 48px;
+  }
+}
+
+.plans-table {
+  td {
+    padding-inline: 60px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #a1a1aa;
+  }
+
+  .plans-table__title {
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 48px;
+    padding-right: 60px;
+  }
+  .plans-table__subtitle {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 24px;
   }
 }
